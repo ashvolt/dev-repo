@@ -1,0 +1,137 @@
+
+html,body {
+    height: 100%;
+}
+
+html {
+    background-repeat: no-repeat;
+    background: linear-gradient(rgb(93,164,231),rgb(59,136,206));
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-segment {
+    background: white;
+    width: 400px;
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.login-content {
+    color: rgb(55,71,79);
+    text-align: center;
+    padding:40px 35px 50px;
+}
+
+.login-header{
+    line-height: 200%;
+    font-weight: bold;
+}
+.login-form{
+    padding-top: 30px;
+}
+.form-group {
+    display:flex;
+    flex-flow: column-reverse;
+}
+.form-group label, input {
+    transition: all 0.2s;
+    touch-action: manipulation;
+}
+.form-input{
+    margin-bottom: 40px;
+    font-size: 1.5em;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    font-family: inherit;
+    -webkit-appearance: none;
+    border-radius: 0;
+    padding: 0;
+    cursor: text;
+}
+input:focus {
+    outline: 0;
+    border-bottom: 1px solid #666;
+  }
+  .form-group label {
+
+    letter-spacing: 0.05em;
+  }
+  .form-group label {
+    cursor: text;
+    max-width: 66.66%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transform-origin: left bottom;
+    transform: translate(0, 2rem) scale(1.2);
+  }
+ 
+  input:focus + label {
+  transform: translate(0, 0) scale(0.8);
+  cursor: pointer;
+}
+.form-group-actions{
+}
+.form-group-actions label{
+float:left;
+}
+.form-group-actions div{
+    float:right;
+}
+.form-group-actions a{
+    color: rgb(93,164,231);
+    text-decoration: none;
+
+}
+
+.form-group-actions a:hover{
+    color: rgb(13, 123, 223);
+}
+
+.form-input-button{
+    margin-top: 40px;
+    color:white;
+    padding:10px;
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    background-color: rgb(93,164,231);
+    border-radius: 5px;
+}
+
+.form-input-button:hover{
+    background-color: rgb(13, 123, 223);
+}
+
+.login-footer{
+    font-size: 13px;
+    padding-top:25px;
+}
+
+.login-footer a{
+    color: rgb(93,164,231);
+    text-decoration: none;
+}
+
+.login-footer a:hover{
+    color: rgb(13, 123, 223);
+}
+
+.copyrights{
+    color:white;
+    margin-top:30px;
+    font-size: 12px;
+}
+.social-network{
+    color:white;
+    margin-top:20px;
+    font-size: 20px;
+}
