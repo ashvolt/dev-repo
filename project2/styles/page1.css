@@ -8,6 +8,9 @@ html {
     background: linear-gradient(rgb(93,164,231),rgb(59,136,206));
 }
 
+
+/* body */
+
 body {
     display:flex;
     justify-content: center;
@@ -16,6 +19,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/* login segment */
+
 .login-segment {
     background: white;
     width: 400px;
@@ -23,6 +29,8 @@ body {
     border: 1px solid white;
     border-radius: 4px;
 }
+
+/* login-content */
 
 .login-content {
     color: rgb(55,71,79);
@@ -36,52 +44,56 @@ body {
 }
 .login-form{
     padding-top: 30px;
+    text-align: left;
 }
 .form-group {
-    display:flex;
+    display: flex;
     flex-flow: column-reverse;
+    margin-bottom: 1em;
 }
 .form-group label, input {
-    transition: all 0.2s;
-    touch-action: manipulation;
+    transition:all 0.2s;
 }
-.form-input{
-    margin-bottom: 40px;
+.form-group label {
+    font-size:.75em;
+    color:rgba(118, 114, 114, 0.60);
+}
+.form-group input {
     font-size: 1.5em;
     border: 0;
     border-bottom: 1px solid #ccc;
     font-family: inherit;
-    -webkit-appearance: none;
     border-radius: 0;
-    padding: 0;
+    padding: 6px;
     cursor: text;
-}
-input:focus {
+  }
+.form-group input:focus {
     outline: 0;
     border-bottom: 1px solid #666;
   }
-  .form-group label {
-
-    letter-spacing: 0.05em;
+  input:placeholder-shown + label {
+  white-space:nowrap;
+  max-width: 66.66%;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  transform-origin:left bottom;
+  transform: translate(0, 2.125rem) scale(1.2);
   }
-  .form-group label {
-    cursor: text;
-    max-width: 66.66%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    transform-origin: left bottom;
-    transform: translate(0, 2rem) scale(1.2);
+  ::-webkit-input-placeholder {
+    opacity: 0;
+    transition: inherit;
   }
- 
+  input:not(:placeholder-shown) + label,
   input:focus + label {
-  transform: translate(0, 0) scale(0.8);
-  cursor: pointer;
-}
+    transform: translate(0, 0) scale(1);
+    cursor: pointer;
+    color:black;
+  }
 .form-group-actions{
+    margin-top: 40px;
 }
 .form-group-actions label{
-float:left;
+    float:left;
 }
 .form-group-actions div{
     float:right;
@@ -95,7 +107,6 @@ float:left;
 .form-group-actions a:hover{
     color: rgb(13, 123, 223);
 }
-
 .form-input-button{
     margin-top: 40px;
     color:white;

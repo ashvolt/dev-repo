@@ -1,0 +1,98 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(93,164,231);
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 22px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.sub-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+.sub-navbar li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float:left;
+}
+
+.dropbtn{
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: #868383;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.content{
+    background-color: rgb(247, 248, 249);
+}
+.header{
+    display: block;
+}
+.header-title {
+    padding:30px;
+    font-size: 30px;
+    float:left;
+}
+.header-button{
+    padding:30px;
+}
+.form-input-button{
+    color:white;
+    padding:10px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(93,164,231);
+    border-radius: 5px;
+    float:right;
+}
+.search-container{
+    margin-left: 35px;
+    margin-right: 50px;
+}
+
+.search-input{
+    padding-left:20px;
+    color:white;
+    width:100%;
+    border:0;
+    height:40px;
+    background-color: rgb(218, 220, 222);
+    border-radius: 5px;
+    font-size: 15px;
+}
+.content-item{
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 20px;
+    display: block;
+    background-color: white;
+    padding:20px;
+    border-radius: 5px;
+}
