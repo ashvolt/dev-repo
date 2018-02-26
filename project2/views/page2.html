@@ -2,32 +2,59 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="../styles/reset.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">    
     <link rel="stylesheet" type="text/css" href="../styles/page2.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> -->
+    <meta charset="UTF-8">
+
+    <script defer src="D:\dev\dev-repo\project2\fonts\fontawesome-free-5.0.6\on-server\js\fontawesome-all.js"></script>
+    
 </head>
 <body>
     <div class="navbar">
         <ul>
-            <li><a>DataStudio</a></li>
+            <li class="float-left"><a>DataStudio</a></li>
+            <li class="float-right"><a><i class="far fa-comment"></i></a></li>
+            <li class="float-right"><a><i class="far fa-envelope"></i></a></li>
+            <li class="float-right"><a><i class="far fa-bell"></i></a></li>
+            <!-- <li class="float-right"><img class="profile-picture" src="../assets/user.png" alt="Avatar"></span></li> -->
+            <li class="float-right"><img class="profile-picture" src="https://www.shareicon.net/download/2016/09/01/822711_user_512x512.png" alt="Avatar"></span></li>
+            
         </ul>
     </div>
     <div class="sub-navbar">
         <ul>
-            <li><button class="dropbtn">Dashboard
+            <li><button class="dropbtn"><i class="fas fa-bars"></i>
+                    Dashboard
                     <i class="fas fa-angle-down"></i>
                 </button>
+                <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                </div>
             </li>
             <li><button class="dropbtn">
                     <i class="fas fa-file"></i>  
                     Workflow Configuration
                     <i class="fas fa-angle-down"></i>
                 </button>
+                <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                </div>
             </li>
             <li><button class="dropbtn">
                     <i class="fas fa-bookmark"></i>
                     Job Status
                     <i class="fas fa-angle-down"></i>
                 </button>
+                <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                </div>
             </li>
         </ul>
     </div>
@@ -41,26 +68,70 @@
             </div>
         </div>
         <div class="search-container">
-            <form>
-                <input class="search-input" type="text" placeholder="&#xf002;  Search Workflow" name="search">
-            </form>
+                    <div><i class="fas fa-search"></i> </div>
+                    <input class="search-input" type="text" placeholder="Search Workflow" name="search">
+            
+            <!-- <div class="search-icon">
+                <span class="fas fa-search"></span>
+            </div>
+            <div class="search-input-text">
+                <input class="search-input" type="text" placeholder="Search Workflow" name="search">
+            </div> -->
         </div>
         <div class="content-data">
             <div class="content-item">
-                Business Core Data
+                <div class="content-item-title">
+                    <h3>Business Core Data</h3>
+                    <p>Website Identifier + Link Extractor + Link classifier + Address Extractor</p>
+                </div>
+                <div class="content-item-status">
+                        <p>Running Job:<strong>2</strong></p>
+                        <p>Completed:<strong>1</strong></p>
+                </div>
             </div>
             <div class="content-item">
-                Lead Generation
+                <div class="content-item-title">
+                    <h3>Lead Generation</h3>
+                    <p>Contact Extractor + Email Extractor</p>
+                </div>
+                <div class="content-item-status">
+                        <p>Running Job:<strong>2</strong></p>
+                        <p>Completed:<strong>1</strong></p>
+                </div>
             </div>
             <div class="content-item">
-                Business Core Data
+                <div class="content-item-title">
+                    <h3>Business Core Data</h3>
+                    <p>Website Identifier + Link Extractor + Link classifier + Address Extractor</p>
+                </div>
+                <div class="content-item-status">
+                        <p>Running Job:<strong>2</strong></p>
+                        <p>Completed:<strong>1</strong></p>
+                </div>
             </div>
             <div class="content-item">
-                Lead Generation
+                <div class="content-item-title">
+                    <h3>Lead Generation</h3>
+                    <p>Contact Extractor + Email Extractor</p>
+                </div>
+                <div class="content-item-status">
+                        <p>Running Job:<strong>2</strong></p>
+                        <p>Completed:<strong>1</strong></p>
+                </div>
             </div>
-
+            <div class="pagination-block">
+                <div class="pagination">
+                  <a href="#"><</a>
+                  <a href="#"  class="active">1</a>
+                  <a href="#">2</a>
+                  <a href="#">3</a>
+                  <a href="#">4</a>
+                  <a href="#">5</a>
+                  <a href="#">></a>
+                </div>
+            </div>   
         </div>
-
     </div>
+       
 </body>
 </html>
