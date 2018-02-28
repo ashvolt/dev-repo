@@ -1,0 +1,97 @@
+.container {
+    background-color: white;
+}
+.header{
+    padding:20px;
+}
+.progress-heading {
+    background-color: rgb(243, 247, 250);
+    text-align: center;
+    color:grey;
+    height: 80px;
+    width: 200px;
+}
+.progress-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.progress-heading h3{
+    padding:25px;
+}
+.arrow-right {
+    padding:25px 50px;
+    color:rgb(99, 168, 235);
+    font-size: 25px;
+}
+.contact-extractor{
+    margin-left:200px;
+    margin-top:30px;
+}
+.arrow-down {
+    color:rgb(99, 168, 235);
+    font-size: 25px;
+}
+.contact-extractor .arrow-down{
+    padding-left:75px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.step-fullsize {
+    position: relative;
+    height: 60px;
+    width: 200px;
+    background-color: rgb(99, 168, 235);
+    color:white;
+    text-align: center;
+    border-right-color: white;
+}
+.step-halfsize {
+    position: relative;
+    height: 60px;
+    width: 100px;
+    background-color: rgb(99, 168, 235);
+    color:white;
+    text-align: center;
+}
+
+.step-count {
+    position: absolute;
+    border-radius: 50px;
+    height: 23px;
+    width: 23px;
+    background-color: white;
+    top:10px;
+    left:10px;
+    color:rgb(99, 168, 235);
+    font-size: 23px;
+}
+
+.triangle-right {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid rgb(99, 168, 235);
+    border-bottom: 13px solid transparent;
+    top: 20px;
+    right: -10px;
+}
+
+.footer button{
+    padding:5px;
+    border:0;
+    height: 35px;
+    width: 65px;
+    border-radius: 3px;
+}
+.footer button:nth-child(1){
+    background-color: #E5E5E5;
+    color:#676363;
+}
+.footer button:nth-child(2){
+    background-color: rgb(99, 168, 235);
+    color:white;
+}
