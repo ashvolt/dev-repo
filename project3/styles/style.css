@@ -1,0 +1,90 @@
+/* --------------------------------------- preset css------------------------------------------ */
+
+html, .root {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  body, .article {
+    font-family: sans-serif;
+    font-size: 1em;
+    line-height: 1.27777778em;
+  }
+  h1, .h1 {
+    font-size: 2.22222222em;
+    line-height: 1.15em;
+    margin-top: 0.575em;
+    margin-bottom: 1.15em;
+  }
+  h2, .h2 {
+    font-size: 1.66666667em;
+    line-height: 1.53333333em;
+    margin-top: 0.76666667em;
+    margin-bottom: 0.76666667em;
+  }
+  h3, .h3 {
+    font-size: 1.27777778em;
+    line-height: 1em;
+    margin-top: 1em;
+    margin-bottom: 0em;
+  }
+  h4, .h4 {
+    font-size: 1em;
+    line-height: 1.27777778em;
+    margin-top: 1.27777778em;
+    margin-bottom: 0em;
+  }
+  h5, .h5 {
+    font-size: 1em;
+    line-height: 1.27777778em;
+    margin-top: 1.27777778em;
+    margin-bottom: 0em;
+  }
+  p, ul, ol, pre, table, blockquote {
+    margin-top: 0em;
+    margin-bottom: 1.27777778em;
+  }
+  ul ul, ol ol, ul ol, ol ul {
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
+  
+  /* Let's make sure all's aligned */
+  hr, .hr {
+    border: 1px solid;
+    margin: -1px 0;
+  }
+  a, b, i, strong, em, small, code {
+    line-height: 0;
+  }
+  sub, sup {
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  sup {
+    top: -0.5em;
+  }
+  sub {
+    bottom: -0.25em;
+  }
+
+/* --------------------------------------------------navbar---------------------------------------------- */
+
+.navbar{
+    display: flex;
+    width:100%;
+    color: #66d9ff;
+    flex-direction: row;
+    background-color: #f2f2f2;
+}
+
+.nav-list {
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.nav-list li{
+    padding:10px;
+
+}
