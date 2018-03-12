@@ -90,19 +90,29 @@ html, .root {
   display: flex;
   height: 175px;
   justify-content: space-around;
+  flex-direction: row;
+  margin-right:25px;
+  margin-left:25px;
+  margin-bottom:25px;
+  padding-left:10px;
+  padding-right:10px;
 
 }
 
-.header img{
+/* .header img{
   padding-bottom: 20px;
+} */
+.col-1{
+  display:flex;
+  flex: 0 0 20%;
+  background: url(../assets/abstract-q-c-1280-1024-10.jpg) no-repeat 50% 50%;
+  background-size: 100% auto;
 }
-.header img:first-child{
-  width:365px;
-  height: 150px;
-}
-.header img:last-child{
-  width:770px;
-  height: 150px;
+.col-2{
+  display:flex;
+  flex: 0 0 70%;
+  background: url(../assets/abstract-q-c-1280-1024-10.jpg) no-repeat 50% 50%;
+  background-size: 100% auto;
 }
 .main-navbar{
   display: flex;
@@ -111,11 +121,13 @@ html, .root {
   flex-direction: row;
   background-color: #f2f2f2;
   justify-content: space-around;
+  align-items: center;
 }
 
 .main-navbar li{
   padding:15px;
   position:relative;
+  border: 1px solid transparent;
 }
 .main-navbar li a{
   padding-right:50px;
@@ -127,8 +139,9 @@ html, .root {
 	border-top: 5px solid transparent;
 	border-left: 10px solid #26BBEC;
   border-bottom: 5px solid transparent;
-  top:22px;
-  right:5px;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
 }
 .main-navbar ul{
   display: none;
@@ -148,8 +161,63 @@ html, .root {
 
 .article{
   display: flex;
-  height: 445px;
-  padding:20px;
-  padding-bottom:25px;
   justify-content: space-around;
+  flex-direction: row;  
+  margin-right:25px;
+  margin-left:25px; 
+  padding: 20px 10px;
+}
+.main-article{
+  height: 380px;
+  flex: 0 0 60%;
+  background: url(http://lorempixel.com/1280/1024) no-repeat 50% 50%;
+  background-size: 100% auto;
+}
+
+/* .main-article img{
+  height: 377px;
+  width:  765px;
+} */
+
+.supported-article {
+  display: flex;
+  height: 380px;
+  flex: 0 0 30%;
+  flex-direction:column;
+  align-items: stretch;
+  justify-content: space-between;
+}
+/* .supported-article div img{
+  height: 185px;
+  width:370px;
+} */
+
+.supported-article div:nth-child(1) {
+  height: 185px;
+  background: url(http://lorempixel.com/1280/1024) no-repeat 50% 50%;
+  background-size: 100% auto;
+}
+.supported-article div:nth-child(2) {
+  height: 185px;
+  background: url(http://lorempixel.com/1280/1024) no-repeat 50% 50%;
+  background-size: 100% auto;
+}
+
+.sub-heading{
+  margin-right:45px;
+  margin-left:45px;
+  text-align: center;
+}
+
+.breaking-news-panel{
+  display:flex;
+  height:200px;
+  margin-right:25px;
+  margin-left:25px; 
+  flex-direction: row;
+  justify-content: space-around;
+}
+.breaking-news-panel span{
+  background-color: DodgerBlue;
+  width: 200px;
 }
