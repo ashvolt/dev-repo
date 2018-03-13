@@ -105,13 +105,13 @@ html, .root {
 .col-1{
   display:flex;
   flex: 0 0 20%;
-  background: url(../assets/abstract-q-c-1280-1024-10.jpg) no-repeat 50% 50%;
+  background: url(../assets/download.jpg) no-repeat 50% 50%;
   background-size: 100% auto;
 }
 .col-2{
   display:flex;
   flex: 0 0 70%;
-  background: url(../assets/abstract-q-c-1280-1024-10.jpg) no-repeat 50% 50%;
+  background: url(../assets/download.jpg) no-repeat 50% 50%;
   background-size: 100% auto;
 }
 .main-navbar{
@@ -170,15 +170,9 @@ html, .root {
 .main-article{
   height: 380px;
   flex: 0 0 60%;
-  background: url(http://lorempixel.com/1280/1024) no-repeat 50% 50%;
+  background: url(../assets/download.jpg) no-repeat 50% 50%;
   background-size: 100% auto;
 }
-
-/* .main-article img{
-  height: 377px;
-  width:  765px;
-} */
-
 .supported-article {
   display: flex;
   height: 380px;
@@ -187,26 +181,24 @@ html, .root {
   align-items: stretch;
   justify-content: space-between;
 }
-/* .supported-article div img{
-  height: 185px;
-  width:370px;
-} */
 
 .supported-article div:nth-child(1) {
   height: 185px;
-  background: url(http://lorempixel.com/1280/1024) no-repeat 50% 50%;
+  background: url(../assets/download.jpg) no-repeat 50% 50%;
   background-size: 100% auto;
 }
 .supported-article div:nth-child(2) {
   height: 185px;
-  background: url(http://lorempixel.com/1280/1024) no-repeat 50% 50%;
+  background: url(../assets/download.jpg) no-repeat 50% 50%;
   background-size: 100% auto;
 }
 
 .sub-heading{
-  margin-right:45px;
-  margin-left:45px;
+  
+  margin: 20px 45px;
   text-align: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .breaking-news-panel{
@@ -220,4 +212,55 @@ html, .root {
 .breaking-news-panel span{
   background-color: DodgerBlue;
   width: 200px;
+}
+.latest-stories{
+  display: flex;
+  margin-right:45px;
+  margin-left:45px;
+}
+.latest-stories-left{
+  display: flex;
+  flex:0 0 75%;
+  flex-direction: column;
+  border-right: 1px solid #CFCACA;
+  padding: 5px;
+}
+.latest-stories-left-content{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  border-bottom: 1px solid #CFCACA;
+  padding-bottom: 15px;
+  padding-top: 15px
+
+}
+.latest-stories-left-content div:nth-child(1){
+  display:flex;
+  flex:0 0 40%;
+  height:230px;
+  width:370px;
+  overflow: hidden;
+
+}
+.latest-stories-left-content div:nth-child(2) {
+display: flex;
+flex:0 0 40%;
+flex-direction:column;
+}
+.latest-stories-right{
+  display: flex;
+  flex:0 0 25%
+}
+
+
+.social-network-status{
+  display: flex;
+  flex-direction:column;
+
+}
+
+.social-network-status div:nth-child(1){
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
