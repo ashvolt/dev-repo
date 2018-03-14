@@ -246,21 +246,96 @@ html, .root {
 display: flex;
 flex:0 0 40%;
 flex-direction:column;
+font-size: inherit;
 }
+
+.pagination {
+  display: inline-block;
+  padding:10px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border:  #ddd;
+  font-size: 14px;
+}
+
+.pagination a.active {
+  background-color: #33BEF9;
+  color: white;
+  border: 1px solid #33BEF9;
+}
+
 .latest-stories-right{
   display: flex;
+  flex-direction: column;
   flex:0 0 25%
 }
 
 
-.social-network-status{
-  display: flex;
-  flex-direction:column;
+.social-network-status table{
+
+}
+.social-network-status tr{
+  display:block;
+  padding: 15px;
+}
+.social-network-status td{
+
+  padding:10px;
+  text-align: center;
+}
+
+.from-our-friends{
+  padding:10px;
+}
+
+.from-our-friends div{
+  padding-top:30px;
+  height:200px;
+  width:250px;
+  overflow: hidden;
 
 }
 
-.social-network-status div:nth-child(1){
+.trending-posts div{
+  display: flex;
+  flex-direction: row;
+}
+.trending-posts img{
+  height: 70px;
+  width:70px;
+  padding:10px;
+}
+
+.trending-posts p{
+  padding:5px;
+  text-align: left;
+}
+
+.flickr{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  background-color: #f2f2f2;
+  
+}
+.flickr div{
+  display: flex;
+  flex-wrap: wrap;
+}
+.flickr span{
+  background-color: #535151;
+
+  
+}
+
+.flickr img{
+ padding:5px;
+ height: 50px;
+ width: 50px;
 }
