@@ -279,15 +279,15 @@ h5,
   padding-top: 10px;
 }
 
-.latest-stories-left-content .icon-user {
+.icon-user {
   font-size: 20px;
 }
 
-.latest-stories-left-content .icon-calendar {
+.icon-calendar {
   font-size: 20px;
 }
 
-.latest-stories-left-content .icon-bubbles2 {
+.icon-bubbles2 {
   font-size: 20px;
 }
 
@@ -371,7 +371,9 @@ h5,
   background-color: #7A7474;
   color:white;
   padding:3px;
-  
+  display: inline-block;
+  margin-bottom: 5px;
+
   
 }
 .flickr img {
