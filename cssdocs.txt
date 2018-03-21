@@ -15,3 +15,8 @@ https://learn.shayhowe.com/advanced-html-css/
 html course
 
 https://webdesign.tutsplus.com/articles/welcome-to-design-school-for-developers--webdesign-13272
+
+
+developer tools 
+
+https://in.udacity.com/course/website-performance-optimization--ud884
