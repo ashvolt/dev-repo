@@ -1,0 +1,84 @@
+.create-applicant-form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:10px;
+}
+
+.accordian-header{
+    background-color:#E6E9ED;
+    padding:10px;
+    width:55%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.accordian-header:before{
+    content: '+';
+    color: #777;
+    font-weight: bolder;
+    float: left;
+    margin-right: 10px;
+}
+
+
+input[type="text"] {
+    border-radius:5px;
+    border: solid 1px grey;
+    width:100%;
+    padding:8px;
+}
+
+.create-applicant-panel {
+    background-color: white;
+    width:55%;
+    padding:10px;
+    overflow: hidden;
+    color:black;
+}
+
+.form-container{
+    display:flex;
+    flex-direction: column;
+    width:80%;
+    margin-left:10px;
+}
+
+.input-fields{
+    display:flex;
+    flex-direction:row;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom:15px;
+}
+
+label {
+    color:rgb(88, 86, 86);
+}
+
+.large-text-box {
+    flex:1 100%;
+    margin-bottom:15px;
+}
+
+.small-text-box {
+    flex-wrap: nowrap;
+    width:45%;
+}
+
+.footer{
+    display:flex;
+    border-top: solid 1px rgb(134, 134, 134);
+    padding:10px;
+    justify-content: flex-end;
+}
+button{
+    
+    border-radius: 5px;
+    background-color: rgb(61, 190, 61);
+    border: none;
+    padding:10px 15px;;
+    color:white;
+}
+

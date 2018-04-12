@@ -1,0 +1,27 @@
+{
+    "Loan_Information": {
+        "": [{
+            "title": "Applicant Name",
+            "value": "name",
+            "className": "large-text-box"
+        }, {
+            "title": "Program Name",
+            "value": "name",
+            "className": "large-text-box"
+        }, {
+            "title": "Type",
+            "value": "type",
+            "className": "small-text-box"
+        },
+        {
+            "title": "Amount",
+            "value": "amount",
+            "className": "small-text-box"
+        },
+        {
+            "title": "Period in Years",
+            "value": "period",
+            "className": "small-text-box"
+        }]
+    }
+}

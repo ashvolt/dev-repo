@@ -1,0 +1,51 @@
+{
+    "form": {
+        "Personal Information": [{
+            "title": "Full Name",
+            "value": "name",
+            "className": "large-text-box"
+        }, {
+            "title": "Gender",
+            "value": "Gender",
+            "className": "small-text-box"
+        }, {
+            "title": "DOB",
+            "value": "dob",
+            "className": "small-text-box"
+        }],
+        "Contact Information": [{
+            "title": "Street 1",
+            "value": "street1",
+            "className": "large-text-box"
+        }, {
+            "title": "Street 2",
+            "value": "street2",
+            "className": "large-text-box"
+        }, {
+            "title": "City",
+            "value": "city",
+            "className": "small-text-box"
+        }, {
+            "title": "State",
+            "value": "state",
+            "className": "small-text-box"
+        }, {
+            "title": "Zip",
+            "value": "zip",
+            "className": "small-text-box"
+        }, {
+            "title": "Country",
+            "value": "country",
+            "className": "small-text-box"
+        }],
+        "Additional Information": [{
+            "title": "Social Security", 
+            "value": "1234", 
+            "className": "small-text-box"
+        }, {
+            "title": "Annual Income", 
+            "value": "123456789101112", 
+            "className": "small-text-box"
+        }]
+    }
+}
